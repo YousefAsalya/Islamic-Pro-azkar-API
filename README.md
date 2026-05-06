@@ -353,6 +353,27 @@ python3 scripts/build.py
 
 ---
 
+### 👨‍💻 المطوّر
+ 
+**يوسف عسلية**  | Flutter Engineer | Co-founder @ North Plus Studio. 
+إسطنبول، تركيا 🇹🇷 · [eng.yousef.asalya@gmail.com](mailto:eng.yousef.asalya@gmail.com)
+ 
+```dart
+class YousefAsalya {
+  final String role     = "Senior Flutter Engineer & Co-Founder";
+  final String studio   = "North Plus Studio — northplusstudio.com";
+  final String degree   = "MSc Cybersecurity — Yıldız Teknik Üniversitesi";
+  List<String> skills   = [
+    "Flutter / Dart",
+    "Cybersecurity & Penetration Testing",
+    "AI Integration",
+    "Clean Architecture",
+  ];
+}
+```
+ 
+---
+
 ### 📄 الترخيص
 
 **MIT** — استخدم الملفات كيفما شئت، تجارياً أو مجاناً.
