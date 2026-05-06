@@ -64,28 +64,24 @@ An open-source structured JSON dataset of **Hisn Al-Muslim** (Fortress of the Mu
 > The structure is pre-built so contributors can fill it in easily.
 > Run `node scripts/fetch-language.js <lang>` to auto-populate from the source API, then review and submit a PR.
 
----
-
 ### 📁 Project Structure
-
+ 
 ```
 Islamic-Pro-azkar-API/
-├── أذكار.json              ← Main file (all languages + all adhkar)
-├── audio/                  ← MP3 audio files (267 files)
+├── data/
+│   ├── ar.json             ← Arabic source data
+│   ├── en.json             ← English (complete)
+│   └── tr.json             ← Turkish (complete)
+├── audio/                  ← 267 MP3 audio files
 │   ├── 1.mp3
 │   ├── 2.mp3
 │   └── ar_7esn_AlMoslem_by_Doors_028.mp3 ...
-├── data/
-│   ├── ar_source.json      ← Arabic source data
-│   └── en.json             ← English (after running fetch script)
-├── scripts/
-│   ├── build.py            ← Rebuild أذكار.json from source
-│   └── fetch-language.js   ← Auto-populate a language from API
 ├── LICENSE
 └── README.md
 ```
-
+ 
 ---
+ 
 
 ### 📖 Data Structure
 
@@ -258,26 +254,22 @@ We especially need help with the 13 remaining languages!
 > الهيكل جاهز مسبقاً لتسهيل المساهمة. شغّل `node scripts/fetch-language.js <lang>` لجلبها تلقائياً ثم راجعها وأرسل Pull Request.
 
 ---
-
+ 
 ### 📁 هيكل المشروع
-
+ 
 ```
 Islamic-Pro-azkar-API/
-├── أذكار.json              ← الملف الرئيسي (كل اللغات + كل الأذكار)
-├── audio/                  ← ملفات الصوت MP3 (267 ملف)
-│   ├── 1.mp3
-│   ├── 2.mp3
-│   └── ar_7esn_AlMoslem_by_Doors_028.mp3 ...
 ├── data/
-│   ├── ar_source.json      ← المصدر العربي الأصلي
-│   └── en.json             ← الإنجليزية (بعد تشغيل السكريبت)
-├── scripts/
-│   ├── build.py            ← إعادة بناء أذكار.json
-│   └── fetch-language.js   ← جلب لغة تلقائياً من API
+│   ├── ar.json             ← المصدر العربي
+│   ├── en.json             ← الإنجليزية (مكتملة)
+│   └── tr.json             ← التركية (مكتملة)
+├── audio/                  ← 267 ملف MP3
+│   ├── 1.mp3
+│   └── ar_7esn_AlMoslem_by_Doors_028.mp3 ...
 ├── LICENSE
 └── README.md
 ```
-
+ 
 ---
 
 ### 📖 هيكل البيانات
