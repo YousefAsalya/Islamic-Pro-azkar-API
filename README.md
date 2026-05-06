@@ -25,37 +25,40 @@ An open-source structured JSON dataset of **Hisn Al-Muslim** (Fortress of the Mu
 ---
 
 ### ✨ Features
-
+ 
 | Feature | Details |
 |---------|---------|
 | 📚 Categories | 132 categories |
-| 🤲 Adhkar | 260+ individual adhkar |
-| 🌍 Languages | 15 languages (AR ✅ EN ✅ + 13 ready for contribution) |
+| 🤲 Adhkar | 185 individual adhkar |
+| 🌍 Languages | Arabic ✅ · English ✅ · Turkish ✅ · 12 more coming soon |
 | 🔢 `count` field | Repeat count for every dhikr |
-| 🔊 Audio | Local MP3 files in `/audio` folder |
+| 🔊 Audio | 267 local MP3 files in `/audio` |
 | 🆓 License | MIT — free for any use |
-
+ 
 ---
-
+ 
 ### 🌍 Supported Languages
-
+ 
 | Code | Language | Status |
 |------|----------|--------|
 | `ar` | العربية | ✅ Complete |
 | `en` | English | ✅ Complete |
-| `bn` | বাংলা | 🤝 Help needed |
-| `bs` | Bosanski | 🤝 Help needed |
-| `es` | Español | 🤝 Help needed |
-| `fa` | فارسی | 🤝 Help needed |
-| `ha` | Hausa | 🤝 Help needed |
-| `hi` | हिन्दी | 🤝 Help needed |
-| `id` | Indonesia | 🤝 Help needed |
-| `pt` | Português | 🤝 Help needed |
-| `so` | Soomaali | 🤝 Help needed |
-| `sw` | Kiswahili | 🤝 Help needed |
-| `th` | ไทย | 🤝 Help needed |
-| `yo` | Yoruba | 🤝 Help needed |
-| `zh` | 中文 | 🤝 Help needed |
+| `tr` | Türkçe | ✅ Complete |
+| `bn` | বাংলা | 🔜 Coming soon |
+| `bs` | Bosanski | 🔜 Coming soon |
+| `es` | Español | 🔜 Coming soon |
+| `fa` | فارسی | 🔜 Coming soon |
+| `ha` | Hausa | 🔜 Coming soon |
+| `hi` | हिन्दी | 🔜 Coming soon |
+| `id` | Indonesia | 🔜 Coming soon |
+| `pt` | Português | 🔜 Coming soon |
+| `so` | Soomaali | 🔜 Coming soon |
+| `sw` | Kiswahili | 🔜 Coming soon |
+| `th` | ไทย | 🔜 Coming soon |
+| `zh` | 中文 | 🔜 Coming soon |
+ 
+---
+
 
 > **Why are some language fields `null`?**
 > The structure is pre-built so contributors can fill it in easily.
