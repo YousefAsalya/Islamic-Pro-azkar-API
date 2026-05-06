@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☪️ Islamic Pro — Azkar API
+# 🕌 Islamic Pro — Azkar API
 
 **[English](#english) | [العربية](#arabic)**
 
