@@ -130,44 +130,43 @@ count: 100 → Daily istighfar    → show progress tracker
 ```
 
 ---
-
+ 
 ### 🚀 Quick Usage
-
+ 
 **JavaScript / Node.js**
 ```js
-const data = require('./أذكار.json');
-
-const morning = data.data.find(cat => cat.id === 1);
-
-const arabicText  = morning.array[0].text.ar;
-const englishText = morning.array[0].text.en;
-const repeatTimes = morning.array[0].count;
-const audioFile   = morning.array[0].audio;
+const ar = require('./data/ar.json');
+const en = require('./data/en.json');
+ 
+const morning = en.find(cat => cat.id === 1);
+ 
+const text      = morning.array[0].text;
+const count     = morning.array[0].count;
+const audioFile = morning.array[0].audio;
 ```
-
+ 
 **Flutter / Dart**
 ```dart
-final String json = await rootBundle.loadString('assets/أذكار.json');
-final data     = jsonDecode(json);
-final category = data['data'][0];
-final text     = category['array'][0]['text']['ar'];
-final count    = category['array'][0]['count'];
-final audio    = category['array'][0]['audio'];
+final String json = await rootBundle.loadString('assets/data/ar.json');
+final List   data = jsonDecode(json);
+final category    = data[0];
+final text        = category['array'][0]['text'];
+final count       = category['array'][0]['count'];
+final audio       = category['array'][0]['audio'];
 ```
-
+ 
 **React Native**
 ```js
-import adhkar from './أذكار.json';
-
-const lang = 'en'; // or 'ar'
-adhkar.data.forEach(category => {
-  console.log(category.category[lang]);
+import adhkar from './data/en.json';
+ 
+adhkar.forEach(category => {
+  console.log(category.category);
   category.array.forEach(dhikr => {
-    console.log(dhikr.text[lang], '×', dhikr.count);
+    console.log(dhikr.text, '×', dhikr.count);
   });
 });
 ```
-
+ 
 ---
 
 ### 🔧 Scripts (for contributors)
